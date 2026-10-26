@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// Gaya ini membantu membedakan judul dan informasi menu kantin.
+// Font Quicksand dipilih karena memiliki bentuk huruf membulat 
+// yang memberikan kesan ramah, unik, dan modern.
+// Ukuran, warna, dan ketebalan teks dapat disesuaikan melalui parameter.
 class CustomText extends StatelessWidget {
   final String text;
   final double fontSize;
@@ -20,7 +22,7 @@ class CustomText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: GoogleFonts.poppins(
+      style: GoogleFonts.quicksand(
         fontSize: fontSize,
         color: color,
         fontWeight: fontWeight,

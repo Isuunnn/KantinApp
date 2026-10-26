@@ -14,24 +14,24 @@ class MenuPage extends StatefulWidget {
 class _MenuPageState extends State<MenuPage> {
   final List<Map<String, dynamic>> daftarMenu = [
     {
-      'nama': 'Nasi Goreng Spesial',
-      'harga': 15000,
+      'nama': 'Shawarma',
+      'harga': 17000,
     },
     {
-      'nama': 'Mie Ayam',
-      'harga': 12000,
+      'nama': 'Nasi Kebuli',
+      'harga': 20000,
     },
     {
-      'nama': 'Ayam Geprek',
+      'nama': 'Mie Goreng Aceh',
       'harga': 18000,
     },
     {
-      'nama': 'Roti Bakar Cokelat',
-      'harga': 10000,
+      'nama': 'Terang Bulan',
+      'harga': 15000,
     },
     {
-      'nama': 'Es Teh Manis',
-      'harga': 5000,
+      'nama': 'Teh Tarik',
+      'harga': 10000,
     },
   ];
 
@@ -59,7 +59,7 @@ class _MenuPageState extends State<MenuPage> {
     return Scaffold(
       appBar: AppBar(
         title: const CustomText(
-          text: 'Kantin Kita',
+          text: 'Kantin Awak',
           fontSize: 20,
           fontWeight: FontWeight.bold,
           color: Colors.white,
